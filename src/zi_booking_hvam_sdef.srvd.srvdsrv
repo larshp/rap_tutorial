@@ -1,0 +1,5 @@
+@EndUserText.label: 'sdf'
+define service ZI_BOOKING_hvam_sdef {
+  expose ZI_Booking_hvam as Booking;
+  expose I_Country as Country;
+}

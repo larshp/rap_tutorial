@@ -1,0 +1,5 @@
+CLASS zbp_i_booking_hvam DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_booking_hvam.
+ENDCLASS.
+
+CLASS zbp_i_booking_hvam IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_i_booking_hvam unique;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZI_BOOKING_hvam alias booking
+//late numbering
+lock master
+authorization master ( instance )
+etag master LastChangedAt
+{
+  create;
+  update;
+  delete;
+}
