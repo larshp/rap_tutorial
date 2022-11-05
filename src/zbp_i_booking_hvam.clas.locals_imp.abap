@@ -151,6 +151,10 @@ CLASS lcl_saver IMPLEMENTATION.
     ENDIF.
 
     APPEND VALUE #( booking = 4 ) TO reported-booking.
+    
+    DATA tab TYPE TABLE FOR CREATE zi_booking_hvam.
+    DATA count TYPE i.
+    count = lines( tab ).
   ENDMETHOD.
 
   METHOD finalize.
